@@ -1,14 +1,6 @@
 # DWDM 
-Understood sir 👍
-Below are **FULL, CLEAR, CONTINUOUS NOTES** written in **textbook style** (not bullet-point style), with **side headings, logical flow, and simple flowcharts** wherever required.
-You can **dictate this in class**, students can **copy as notes**, and the same content is **directly usable for 10-mark answers**.
-
----
-
-# UNIT–I
-
+## Module 1
 ## DATA MINING FUNCTIONALITIES
-
 ## CLASSIFICATION OF DATA MINING SYSTEMS
 
 ---
@@ -21,7 +13,7 @@ Data mining functionalities describe the **types of patterns, relationships, and
 
 These functionalities are essential for decision making, prediction, analysis, and understanding complex data behavior across different application domains such as business, healthcare, education, banking, and telecommunications.
 
----
+
 
 ### 1.2 Concept Description
 
@@ -35,7 +27,7 @@ There are two important forms of concept description:
 
 Concept description helps decision makers understand data at a higher level of abstraction instead of dealing with raw data.
 
----
+
 
 ### 1.3 Classification
 
@@ -61,7 +53,7 @@ Training Data (with class labels)
 
 Classification helps organizations automate decision-making processes and improve accuracy.
 
----
+
 
 ### 1.4 Prediction
 
@@ -73,7 +65,7 @@ For example, predicting the sales amount for the next month, predicting stock pr
 
 Prediction models are widely used in business planning, financial forecasting, and performance analysis.
 
----
+
 
 ### 1.5 Clustering
 
@@ -87,7 +79,7 @@ For example, customers can be grouped based on purchasing behavior, or students 
 
 Clustering helps organizations identify hidden structures and patterns in data.
 
----
+
 
 ### 1.6 Association Rule Mining
 
@@ -103,7 +95,7 @@ Bread → Butter
 
 Association rule mining helps businesses improve marketing strategies, product placement, and cross-selling.
 
----
+
 
 ### 1.7 Outlier Analysis
 
@@ -115,7 +107,7 @@ For example, detecting unusual credit card transactions or identifying network i
 
 Outlier analysis plays a crucial role in security, fraud detection, and quality control systems.
 
----
+
 
 ### 1.8 Evolution and Trend Analysis
 
@@ -125,13 +117,13 @@ This functionality is useful for understanding long-term behavior and predicting
 
 For example, analyzing sales growth over years or tracking student performance across semesters.
 
----
+
 
 ### 1.9 Summary of Data Mining Functionalities
 
 Data mining functionalities enable the extraction of descriptive, predictive, and behavioral knowledge from data. Together, they form the foundation of intelligent data analysis and decision support systems.
 
----
+
 
 ## 2. CLASSIFICATION OF DATA MINING SYSTEMS
 
@@ -139,7 +131,6 @@ Data mining functionalities enable the extraction of descriptive, predictive, an
 
 Data mining systems can be classified in several ways based on **the type of data mined, the kind of knowledge discovered, the techniques used, the application areas, and system architecture**. This classification helps in understanding the scope and capabilities of different data mining systems.
 
----
 
 ### 2.2 Classification Based on the Type of Data to be Mined
 
@@ -155,7 +146,7 @@ Examples include:
 
 Each type requires specialized techniques due to differences in data structure and complexity.
 
----
+
 
 ### 2.3 Classification Based on the Kind of Knowledge to be Mined
 
@@ -163,7 +154,7 @@ Data mining systems are also classified based on the type of knowledge they extr
 
 This classification directly corresponds to data mining functionalities and helps users select appropriate systems for their objectives.
 
----
+
 
 ### 2.4 Classification Based on Techniques Used
 
@@ -171,7 +162,7 @@ Different data mining systems use different analytical techniques to extract kno
 
 The choice of technique depends on the problem domain, data type, and required accuracy.
 
----
+
 
 ### 2.5 Classification Based on Application Areas
 
@@ -179,7 +170,7 @@ Some data mining systems are domain-specific and tailored for particular applica
 
 Application-oriented systems are optimized to handle domain-specific data and business rules.
 
----
+
 
 ### 2.6 Classification Based on System Architecture
 
@@ -199,7 +190,7 @@ Operational Databases
    Knowledge / Decisions
 ```
 
----
+
 
 ## 3. CONCLUSION
 
