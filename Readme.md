@@ -616,9 +616,18 @@ Integrate hierarchical agglomeration by first using a hierarchical agglomerative
 
 ### Density-based Method
 
+This method is based on the notion of density. The basic idea is to continue growing the given cluster as long as the density in the neighborhood exceeds some threshold, i.e., for each data point within a given cluster, the radius of a given cluster has to contain at least a minimum number of points.
+
 <img width="3185" height="1251" alt="image" src="https://github.com/user-attachments/assets/2009bc02-3d34-485f-8a33-e4b026acc184" />
 
-### Grid-Based Method
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/9c205204-b849-4ddf-b691-d2b9a1a20ec6" />
 
+
+## reference notes -> 
+https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/
+
+### Grid-Based Method
+#### reference notes: 
+https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/
 <img width="604" height="286" alt="image" src="https://github.com/user-attachments/assets/fc383ae5-2d8c-46f7-9364-a543969a4778" />
 
