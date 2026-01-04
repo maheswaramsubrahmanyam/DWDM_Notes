@@ -627,7 +627,8 @@ This method is based on the notion of density. The basic idea is to continue gro
 https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/
 
 ### Grid-Based Method
-#### reference notes: 
-https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/
+
+Grid-based methods in cluster analysis are a category of algorithms that quantize the data space into a finite number of cells (a grid structure) and perform all clustering operations on this structure rather than on individual data points. The primary advantage of this approach is its computational efficiency and scalability, especially for large datasets. 
+
 <img width="604" height="286" alt="image" src="https://github.com/user-attachments/assets/fc383ae5-2d8c-46f7-9364-a543969a4778" />
 
