@@ -574,13 +574,18 @@ Clustering Methods
 Clustering methods can be classified into the following categories −
 
 ### Partitioning Method
+
 <img width="627" height="535" alt="image" src="https://github.com/user-attachments/assets/bcc8d057-216f-4183-be34-60d678d21d8d" />
 
 ### Hierarchical Method
+
 <img width="663" height="574" alt="image" src="https://github.com/user-attachments/assets/0c5f6ad5-c304-4db1-b58c-f36117def12b" />
+
 ### Density-based Method
+
 <img width="3185" height="1251" alt="image" src="https://github.com/user-attachments/assets/2009bc02-3d34-485f-8a33-e4b026acc184" />
 
 ### Grid-Based Method
+
 <img width="604" height="286" alt="image" src="https://github.com/user-attachments/assets/fc383ae5-2d8c-46f7-9364-a543969a4778" />
 
