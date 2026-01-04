@@ -5,6 +5,9 @@
 
 ---
 
+# KDD LINK -> 
+https://www.tutorialspoint.com/data_mining/dm_knowledge_discovery.htm
+
 ## 1. DATA MINING FUNCTIONALITIES
 
 ### 1.1 Introduction
