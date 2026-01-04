@@ -573,7 +573,20 @@ Interpretability − The clustering results should be interpretable, comprehensi
 Clustering Methods
 Clustering methods can be classified into the following categories −
 
-### Partitioning Method
+# Partitioning Method
+
+## Partitioning Method
+Suppose we are given a database of n objects and the partitioning method constructs k partition of data. Each partition will represent a cluster and k ≤ n. It means that it will classify the data into k groups, which satisfy the following requirements −
+
+### Each group contains at least one object.
+
+### Each object must belong to exactly one group.
+
+### Points to remember −
+
+For a given number of partitions (say k), the partitioning method will create an initial partitioning.
+
+Then it uses the iterative relocation technique to improve the partitioning by moving objects from one group to other.
 
 <img width="627" height="535" alt="image" src="https://github.com/user-attachments/assets/bcc8d057-216f-4183-be34-60d678d21d8d" />
 
