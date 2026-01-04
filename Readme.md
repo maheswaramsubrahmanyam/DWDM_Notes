@@ -526,5 +526,61 @@ If advertising cost = **15,000**
 
 ---
 
+# CLUSTER ANALYSIS 
 
+What is Clustering?
+Clustering is the process of making a group of abstract objects into classes of similar objects.
+
+Points to Remember
+
+A cluster of data objects can be treated as one group.
+
+While doing cluster analysis, we first partition the set of data into groups based on data similarity and then assign the labels to the groups.
+
+The main advantage of clustering over classification is that, it is adaptable to changes and helps single out useful features that distinguish different groups.
+
+
+Applications of Cluster Analysis
+Clustering analysis is broadly used in many applications such as market research, pattern recognition, data analysis, and image processing.
+
+Clustering can also help marketers discover distinct groups in their customer base. And they can characterize their customer groups based on the purchasing patterns.
+
+In the field of biology, it can be used to derive plant and animal taxonomies, categorize genes with similar functionalities and gain insight into structures inherent to populations.
+
+Clustering also helps in identification of areas of similar land use in an earth observation database. It also helps in the identification of groups of houses in a city according to house type, value, and geographic location.
+
+Clustering also helps in classifying documents on the web for information discovery.
+
+Clustering is also used in outlier detection applications such as detection of credit card fraud.
+
+As a data mining function, cluster analysis serves as a tool to gain insight into the distribution of data to observe characteristics of each cluster.
+
+Requirements of Clustering in Data Mining
+The following points throw light on why clustering is required in data mining −
+
+Scalability − We need highly scalable clustering algorithms to deal with large databases.
+
+Ability to deal with different kinds of attributes − Algorithms should be capable to be applied on any kind of data such as interval-based (numerical) data, categorical, and binary data.
+
+Discovery of clusters with attribute shape − The clustering algorithm should be capable of detecting clusters of arbitrary shape. They should not be bounded to only distance measures that tend to find spherical cluster of small sizes.
+
+High dimensionality − The clustering algorithm should not only be able to handle low-dimensional data but also the high dimensional space.
+
+Ability to deal with noisy data − Databases contain noisy, missing or erroneous data. Some algorithms are sensitive to such data and may lead to poor quality clusters.
+
+Interpretability − The clustering results should be interpretable, comprehensible, and usable.
+
+Clustering Methods
+Clustering methods can be classified into the following categories −
+
+### Partitioning Method
+<img width="627" height="535" alt="image" src="https://github.com/user-attachments/assets/bcc8d057-216f-4183-be34-60d678d21d8d" />
+
+### Hierarchical Method
+<img width="663" height="574" alt="image" src="https://github.com/user-attachments/assets/0c5f6ad5-c304-4db1-b58c-f36117def12b" />
+### Density-based Method
+<img width="3185" height="1251" alt="image" src="https://github.com/user-attachments/assets/2009bc02-3d34-485f-8a33-e4b026acc184" />
+
+### Grid-Based Method
+<img width="604" height="286" alt="image" src="https://github.com/user-attachments/assets/fc383ae5-2d8c-46f7-9364-a543969a4778" />
 
