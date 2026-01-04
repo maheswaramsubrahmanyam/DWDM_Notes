@@ -575,6 +575,8 @@ Clustering methods can be classified into the following categories −
 
 # Partitioning Method
 
+<img width="627" height="535" alt="image" src="https://github.com/user-attachments/assets/bcc8d057-216f-4183-be34-60d678d21d8d" />
+
 ## Partitioning Method
 Suppose we are given a database of n objects and the partitioning method constructs k partition of data. Each partition will represent a cluster and k ≤ n. It means that it will classify the data into k groups, which satisfy the following requirements −
 
@@ -588,11 +590,29 @@ For a given number of partitions (say k), the partitioning method will create an
 
 Then it uses the iterative relocation technique to improve the partitioning by moving objects from one group to other.
 
-<img width="627" height="535" alt="image" src="https://github.com/user-attachments/assets/bcc8d057-216f-4183-be34-60d678d21d8d" />
 
 ### Hierarchical Method
-
 <img width="663" height="574" alt="image" src="https://github.com/user-attachments/assets/0c5f6ad5-c304-4db1-b58c-f36117def12b" />
+
+This method creates a hierarchical decomposition of the given set of data objects. We can classify hierarchical methods on the basis of how the hierarchical decomposition is formed. There are two approaches here −
+
+Agglomerative Approach
+Divisive Approach
+# Agglomerative Approach
+This approach is also known as the bottom-up approach. In this, we start with each object forming a separate group. It keeps on merging the objects or groups that are close to one another. It keep on doing so until all of the groups are merged into one or until the termination condition holds.
+<img width="516" height="252" alt="image" src="https://github.com/user-attachments/assets/b3996fb1-d6dc-49d8-b1ae-968064383ac9" />
+
+# Divisive Approach
+This approach is also known as the top-down approach. In this, we start with all of the objects in the same cluster. In the continuous iteration, a cluster is split up into smaller clusters. It is down until each object in one cluster or the termination condition holds. This method is rigid, i.e., once a merging or splitting is done, it can never be undone.
+<img width="1024" height="761" alt="image" src="https://github.com/user-attachments/assets/aea35eeb-8448-4235-b727-b65c98a8dbe8" />
+
+Approaches to Improve Quality of Hierarchical Clustering
+Here are the two approaches that are used to improve the quality of hierarchical clustering −
+
+Perform careful analysis of object linkages at each hierarchical partitioning.
+
+Integrate hierarchical agglomeration by first using a hierarchical agglomerative algorithm to group objects into micro-clusters, and then performing macro-clustering on the micro-clusters.
+
 
 ### Density-based Method
 
