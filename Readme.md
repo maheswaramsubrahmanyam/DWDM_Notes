@@ -632,3 +632,138 @@ Grid-based methods in cluster analysis are a category of algorithms that quantiz
 
 <img width="604" height="286" alt="image" src="https://github.com/user-attachments/assets/fc383ae5-2d8c-46f7-9364-a543969a4778" />
 
+
+---
+
+# Association Rules
+
+
+Association rules are a fundamental concept in data mining used to find relationships, correlations, or patterns within large sets of data items. They describe how often itemsets occur together in transactions and express implications of the form:
+
+\[
+X \rightarrow Y
+\]
+
+Where \(X\) and \(Y\) are **disjoint** sets of items (i.e., \(X \cap Y = \varnothing\)).  
+This rule suggests that when items in \(X\) appear, items in \(Y\) tend to appear as well.
+
+Association rules originated from **market basket analysis** and help retailers and analysts understand customer behavior by discovering item associations in transaction data.
+
+For example, a rule stating:
+
+\[
+\{Bread, Butter\} \rightarrow \{Milk\}
+\]
+
+indicates that customers who buy bread and butter also tend to buy milk.
+
+---
+
+## Key Components
+
+- **Antecedent (X)**:  
+  The "if" part of the rule, representing one or more items found in transactions.
+
+- **Consequent (Y)**:  
+  The "then" part of the rule, representing the items likely to be purchased when antecedent items appear.
+
+Formally, an association rule is written as:
+
+\[
+X \rightarrow Y \quad \text{where } X, Y \subseteq I, \; X \cap Y = \varnothing
+\]
+
+Here, \(I\) is the set of all possible items.
+
+---
+
+## Rule Evaluation Metrics
+
+To measure the strength and usefulness of association rules, we use three main metrics: **Support**, **Confidence**, and **Lift**.
+
+### 1. Support
+
+Support measures how frequently the itemset \(X \cup Y\) appears in the dataset.
+
+\[
+Support(X \rightarrow Y) = \frac{\text{Number of transactions containing } (X \cup Y)}{\text{Total number of transactions}}
+\]
+
+- Higher support means the rule is more commonly observed in the data.
+
+### 2. Confidence
+
+Confidence measures the reliability of the inference made by the rule. It is the conditional probability that a transaction containing \(X\) also contains \(Y\).
+
+\[
+Confidence(X \rightarrow Y) = \frac{Support(X \cup Y)}{Support(X)}
+\]
+
+- Higher confidence means that when \(X\) appears, \(Y\) appears more often.
+
+### 3. Lift
+
+Lift measures how many times more often \(X\) and \(Y\) occur together than expected if they were statistically independent.
+
+\[
+Lift(X \rightarrow Y) = \frac{Confidence(X \rightarrow Y)}{Support(Y)}
+\]
+
+Interpretation:
+
+- \(Lift > 1\): Positive association (items occur together more than expected).
+- \(Lift = 1\): No association (items occur independently).
+- \(Lift < 1\): Negative association (items occur together less than expected).
+
+---
+
+## Example Transaction Data
+
+Consider the following transaction dataset:
+
+| Transaction ID | Items                          |
+|----------------|--------------------------------|
+| 1              | Bread, Milk                    |
+| 2              | Bread, Diaper, Beer, Eggs      |
+| 3              | Milk, Diaper, Beer, Coke       |
+| 4              | Bread, Milk, Diaper, Beer      |
+| 5              | Bread, Milk, Diaper, Coke      |
+
+Let us analyze the rule:
+
+\[
+\{Milk, Diaper\} \rightarrow \{Beer\}
+\]
+
+### Step 1: Compute Support
+
+- Total number of transactions: \(5\)
+- Transactions containing \(\{Milk, Diaper, Beer\}\):  
+  - Transaction 3: Milk, Diaper, Beer, Coke  
+  - Transaction 4: Bread, Milk, Diaper, Beer  
+  So, count \(= 2\)
+
+\[
+Support(\{Milk, Diaper\} \rightarrow \{Beer\}) = \frac{2}{5} = 0.4
+\]
+
+### Step 2: Compute Confidence
+
+- Transactions containing \(\{Milk, Diaper\}\):  
+  - Transaction 3: Milk, Diaper, Beer, Coke  
+  - Transaction 4: Bread, Milk, Diaper, Beer  
+  - Transaction 5: Bread, Milk, Diaper, Coke  
+  So, count \(= 3\)
+
+\[
+Confidence(\{Milk, Diaper\} \rightarrow \{Beer\}) = \frac{Support(\{Milk, Diaper, Beer\})}{Support(\{Milk, Diaper\})} = \frac{2/5}{3/5} = \frac{2}{3} \approx 0.67
+\]
+
+### Step 3: Compute Lift
+
+- Transactions containing \(\{Beer\}\):  
+  - Transaction 2  
+  - Transaction 3  
+  - Transaction 4  
+  So, c
+
