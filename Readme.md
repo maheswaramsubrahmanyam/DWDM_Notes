@@ -765,5 +765,8 @@ Confidence(\{Milk, Diaper\} \rightarrow \{Beer\}) = \frac{Support(\{Milk, Diaper
   - Transaction 2  
   - Transaction 3  
   - Transaction 4  
-  So, c
 
+  
+
+##### resourse: 
+https://www.geeksforgeeks.org/machine-learning/association-rule/
