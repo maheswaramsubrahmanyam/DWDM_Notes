@@ -909,3 +909,6 @@ https://www.geeksforgeeks.org/data-analysis/what-is-outlier-detection/
 
 <img width="939" height="622" alt="image" src="https://github.com/user-attachments/assets/28589be0-ac02-4a93-906d-be7a95601531" />
 
+<img width="851" height="550" alt="image" src="https://github.com/user-attachments/assets/49cde431-ebe8-47fa-b4ad-495020bd72a2" />
+
+
